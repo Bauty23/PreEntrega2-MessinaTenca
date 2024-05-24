@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+  
+
+
 * {
     padding: 0;
     margin: 0;
@@ -18,8 +23,8 @@
     
     
     position: absolute;
-    right: 0%;
-    bottom: 0%;
+    
+    
     z-index: -1;
   }
   
@@ -293,6 +298,7 @@
 }
 .content-section{
 	float: left;
+  margin-bottom: 50%;
 	
 }
 .image-section{
@@ -306,7 +312,7 @@
 }
 .content-section .title{
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 30px;
 }
 .content-section .content h3{
 	margin-top: 20px;
@@ -354,9 +360,10 @@
 }
 .content-section{
 	float:none;
-	width:100%;
+	width:300%;
 	display: block;
 	margin:auto;
+  
 }
 .image-section{
 	float:none;
@@ -443,6 +450,10 @@ a{
 
 .title-shop{
   margin: 0 2.5rem;
+  font-size: 50px;
+  text-decoration:underline;
+  font-family: "Poetsen One", sans-serif;
+
 }
 .title-shop::after{
   content: '';
@@ -666,7 +677,9 @@ p5 {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+ 
 }
+
 .container-form{
   width: 100%;
   max-width: 1100px;
@@ -729,7 +742,6 @@ p5 {
 .container-form .btn-enviar:hover{
   background: #e39403;
 }
-
 
 
 
