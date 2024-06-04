@@ -442,8 +442,8 @@ a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   max-width: 1200px;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 3rem;
+  margin-right: 4rem;
   align-items: center;
   gap: 2rem;
 }
@@ -743,5 +743,34 @@ p5 {
   background: #e39403;
 }
 
+.Mapa-content{
+  text-align: center;
+  margin-top: 200px;
+  
+
+}
+
+
+.Mapa{
+  outline: 2px solid blue;
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  background-size: cover;
+ 
+}
+
+.Ubicacion-texto{
+  color: white;
+  
+}
+
+.Textoubi{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  
+  
+}
 
 
