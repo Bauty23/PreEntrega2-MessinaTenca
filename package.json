@@ -1,0 +1,27 @@
+{
+  "name": "pagina-final",
+  "version": "1.0.0",
+  "description": "Projecto Final coder",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bauty23/PreEntrega2-MessinaTenca.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "preprocesador",
+    "styles",
+    "node"
+  ],
+  "author": "PUC/ASC Bauty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bauty23/PreEntrega2-MessinaTenca/issues"
+  },
+  "homepage": "https://github.com/Bauty23/PreEntrega2-MessinaTenca#readme"
+}
