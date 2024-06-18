@@ -288,10 +288,11 @@ a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   max-width: 1200px;
-  margin-left: 3rem;
+  margin-left: 10rem;
   margin-right: 4rem;
   align-items: center;
   gap: 2rem;
+  align-content: center;
 }
 
 .title-shop{
@@ -299,6 +300,7 @@ a{
   font-size: 50px;
   text-decoration:underline;
   font-family: "Poetsen One", sans-serif;
+  margin-left: 40rem;
 
 }
 .title-shop::after{
