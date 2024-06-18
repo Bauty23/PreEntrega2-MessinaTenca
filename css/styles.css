@@ -6,10 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+25&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
-  
-
-
-* {
+  * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -21,7 +18,7 @@
 
   .background-clip{
     
-    
+    height: 85%;
     position: absolute;
     
     
@@ -61,16 +58,9 @@
     
   
   }
-
- 
-  
-  
-
   .inicio {
     color: white;
   }
-
-
   .container{
     position: relative;
     width: 100%;
@@ -740,8 +730,6 @@ p5 {
   
   
 }
-
-
 .btn-wsp{
   position:fixed;
   width:60px;
@@ -778,6 +766,7 @@ a:hover {
 
 #logo {
     font-size: 1.5rem;
+    height: 150%;
     
     font-weight: bold;
 }
