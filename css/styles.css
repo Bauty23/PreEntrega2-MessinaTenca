@@ -14,6 +14,10 @@
 	padding:0px;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
   }
 
   .background-clip{
@@ -61,7 +65,7 @@
   .inicio {
     color: white;
   }
-  .container{
+  .container4{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -69,142 +73,26 @@
 
   }
 
-  .container {
+  .container4 {
 	display: grid;
 	place-items: center;
 	min-height: 100vh;
 }
-.container h2 {
+.container4 h2 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(122, 175, 179);
   
 	font-size: 200px;
 }
-.container span {
-	position: fixed;
-	bottom: -50px;
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	background: linear-gradient(-135deg, green, white);
-	animation: animate 10s linear infinite;
-}
-.container span:nth-child(1) {
-	left: 0;
-	animation-delay: .6s;
-	height: 50px;
-	width: 50px;
-}
-.container span:nth-child(2) {
-	left: 10%;
-	animation-delay: 3s;
-	height: 60px;
-	width: 60px;
-}
-.container span:nth-child(3) {
-	left: 20%;
-	animation-delay: 2s;
-	height: 80px;
-	width: 80px;
-}
-.container span:nth-child(4) {
-	left: 30%;
-	animation-delay: 5s;
-}
-.container span:nth-child(5) {
-	left: 40%;
-	animation-delay: 1s;
-}
-.container span:nth-child(6) {
-	left: 50%;
-	animation-delay: 7s;
-	height: 90px;
-	width: 90px;
-}
-.container span:nth-child(7) {
-	left: 60%;
-	animation-delay: 6s;
-	height: 120px;
-	width: 120px;
-}
-.container span:nth-child(8) {
-	left: 70%;
-	animation-delay: 8s;
-}
-.container span:nth-child(9) {
-	left: 80%;
-	animation-delay: 6s;
-	height: 50px;
-	width: 50px;
-}
-.container span:nth-child(10) {
-	left: 90%;
-	animation-delay: 4s;
-}
-@keyframes animate {
-	0% {
-		bottom: 0%;
-		margin-left: 90px;
-		margin-right: 0px;
-        opacity: 5%;
-        
-	}
-	20% {
-		bottom: 20%;
-		margin-left: 0px;
-		margin-right: 90px;
-        opacity: 5%;
-	}
-	40% {
-		bottom: 40%;
-		margin-left: 90px;
-		margin-right: 0px;
-        opacity: 5%;
-	}
-	60% {
-		bottom: 60%;
-		margin-left: 0px;
-		margin-right: 90px;
-        opacity: 5%;
-	}
-	80% {
-		bottom: 80%;
-		margin-left: 90px;
-		margin-right: 0px;
-        opacity: 5%;
-	}
-	100% {
-		bottom: 100%;
-		margin-left: 0px;
-		margin-right: 90px;
-        opacity: 5%;
-	}
-}
+
 
 .Letras{
-  font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-  
-  color: rgb(122, 175, 179);
-    align-items: center;
-
-    margin-bottom: 100%;
-
-      font-size: 40px;
-
-
-
-
-  
-      
-      
-}
-
-.Letras1{
     font-family:sans-serif;
   color: rgb(122, 175, 179);
+  height: 100px;
+  font-size: 40px;
 
     
         
@@ -869,4 +757,132 @@ a:hover {
         transform: rotate(-135deg);
         top: -7px;
     }
+}
+
+footer{
+  width: 100%;
+  background: #202020;
+  color: white;   
+  
+}
+
+.container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1{
+  max-width: 400px;
+}
+
+.colum1 h1{
+  font-size: 22px;
+}
+
+.colum1 p{
+  font-size: 14px;
+  color: #C7C7C7;
+  margin-top: 20px;
+}
+
+.colum2{
+  max-width: 400px;
+  
+}
+
+.colum2 h1{
+  font-size: 22px;
+}
+
+.row{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img{
+  width: 36px;
+  height: 36px;
+
+}
+
+.row label{
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #C7C7C7;
+}
+
+.colum3{
+  max-width: 400px;
+}
+
+.colum3 h1{
+  font-size: 22px;
+}
+
+.row2{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 img{
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label{
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer{
+  width: 100%;  
+  background: #101010;
+}
+
+.footer{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;  
+  padding: 20px;
+}
+
+.copyright{
+  color: #C7C7C7;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a{
+  text-decoration: none;
+  color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+  
+  .container-body{
+      flex-wrap: wrap;
+  }
+  
+  .colum1{
+      max-width: 100%;
+  }
+  
+  .colum2,
+  .colum3{
+      margin-top: 40px;
+  }
 }
