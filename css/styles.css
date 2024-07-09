@@ -614,6 +614,7 @@ p5 {
 }
 
 .Textoubi{
+  margin-top: 20px;
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
@@ -771,7 +772,7 @@ footer{
 .container-footer-all{
   width: 100%;
   max-width: 1200px;
-  margin: auto;
+  margin-top: 40px;
   padding: 40px;
 }
 
