@@ -285,14 +285,16 @@ a{
   padding: 2rem 0;
 }
 .bd-grid{
+  
+  justify-content: center;
+  padding: 20px;
+  align-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   max-width: 1200px;
-  margin-left: 23rem;
-  margin-right: 4rem;
   align-items: center;
   gap: 2rem;
-  align-content: center;
+  
 }
 
 .title-shop{
